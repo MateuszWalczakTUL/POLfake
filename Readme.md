@@ -19,6 +19,17 @@ This file contains fact-checked claims by professional fact-checking platforms (
 - **author** – The person who made the statement (if known).
 - **link** – A URL linking to the full fact-checking report.
 
+#### **Number of Claims by Label**
+The following table summarizes the numbers of claims for each category:
+
+| Label                  | Number of Claims |
+|------------------------|-----------------|
+| **Prawda** (True)      | 3,058           |
+| **Fałsz** (False)      | 1,733           |
+| **Manipulacja** (Manipulation) | 852   |
+| **W większości prawda** (Mostly True) | 109 |
+| **W większości fałsz** (Mostly False) | 22 |
+
 ### **2. Tweets (tweets.csv)**
 This file contains tweets that refer to claims listed in **claims.csv**. The file includes metadata related to tweet interactions and its relation to the claims.
 
