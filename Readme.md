@@ -42,12 +42,12 @@ This file contains tweets that refer to claims listed in **claims.csv**. The fil
 #### Columns:
 - **id** – Unique identifier for the tweet.
 - **claim_id** – Identifier linking the tweet to a claim in **claims.csv**.
-- **body_text** – The textual content of the tweet.
+- **content** – The textual content of the tweet.
 - **shares** – The number of times the tweet was shared (retweeted).
 - **likes** – The number of likes the tweet received.
 - **replies** – The number of replies to the tweet.
 - **link** – URL to the tweet on *X* platform.
-- **time_created** – The date and time the tweet was published, in UNIX timestamp format.
+- **publication_date** – The date and time the tweet was published, in UNIX timestamp format.
 - **label** - The truthfulness label of the tweet which is the same as the claim it refers to.
 - **label_enc** - Encoded label for the tweet following the same encoding as in **claims.csv**.
 
